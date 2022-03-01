@@ -1,0 +1,58 @@
+/*
+|
+| Added back again because in chrome this is not using and light house also saying not used.
+| But in mozilla all fonts are gone which creating problem.
+|
+*/
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+/*
+|--------------------------------------------------------------------------
+| Velocity Variables
+|--------------------------------------------------------------------------
+|
+| Below are all the variables used in Velocity's SCSS.
+|
+*/
+/* theme colors */
+$theme-color: #00d9ff;
+$theme-dark-color: #00a0bc;
+
+/* background colors */
+$light-background: #f7f7f9;
+
+/* font colors */
+$font-color: rgba(0, 0, 0, 0.83);
+$font-color-light: rgba(255, 255, 255, 0.83);
+
+/* button colors */
+$button-danger: #f05153;
+$button-primary-bg: #00d9ff;
+$button-text-color: #ffffff;
+
+/* border colors */
+$border-common: #cccccc;
+$border-danger: #f05153;
+$border-dark: #dcdcdc;
+$border-general: #e5e5e5;
+$border-light: #ececec;
+$border-primary: #00d9ff;
+
+/* link colors */
+$link-color: #4d7ea8;
+$light-link-color: #28557b;
+
+/* remaining colors */
+$black-color: #111111;
+$danger-color: #f05153;
+$grey-color: rgb(158, 158, 158);
+$light1-black: #141516;
+$light2-black: #cfcfd0;
+$white-color: #ffffff;
+
+/* other stuffs */
+$sidebar-width: 230px;
+$box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+$material-icons-font-path: '../material-icons/iconfont/' !default;
+$border-normal: 1px solid $border-dark;
+$font-family-pro: 'Source Sans Pro', sans-serif;
